@@ -1,0 +1,181 @@
+protocol,setting,classifier,method,mean,std
+eyb_light,train S1 -> test S2,1-NN,kpca_poly,94.14,
+eyb_light,train S1 -> test S2,1-NN,kpca_rbf,93.52,
+eyb_light,train S1 -> test S2,1-NN,pca,94.44,
+eyb_light,train S1 -> test S2,LDA,kpca_poly,100.0,
+eyb_light,train S1 -> test S2,LDA,kpca_rbf,99.07,
+eyb_light,train S1 -> test S2,LDA,pca,100.0,
+eyb_light,train S1 -> test S2,RBF SVM,kpca_poly,99.69,
+eyb_light,train S1 -> test S2,RBF SVM,kpca_rbf,99.69,
+eyb_light,train S1 -> test S2,RBF SVM,pca,99.69,
+eyb_light,train S1 -> test S2,linear SVM,kpca_poly,100.0,
+eyb_light,train S1 -> test S2,linear SVM,kpca_rbf,99.69,
+eyb_light,train S1 -> test S2,linear SVM,pca,99.69,
+eyb_light,train S1 -> test S2,soft k-NN,kpca_poly,89.81,
+eyb_light,train S1 -> test S2,soft k-NN,kpca_rbf,89.2,
+eyb_light,train S1 -> test S2,soft k-NN,pca,91.05,
+eyb_light,train S1 -> test S3,1-NN,kpca_poly,49.43,
+eyb_light,train S1 -> test S3,1-NN,kpca_rbf,49.05,
+eyb_light,train S1 -> test S3,1-NN,pca,50.19,
+eyb_light,train S1 -> test S3,LDA,kpca_poly,79.85,
+eyb_light,train S1 -> test S3,LDA,kpca_rbf,59.32,
+eyb_light,train S1 -> test S3,LDA,pca,81.37,
+eyb_light,train S1 -> test S3,RBF SVM,kpca_poly,63.88,
+eyb_light,train S1 -> test S3,RBF SVM,kpca_rbf,66.92,
+eyb_light,train S1 -> test S3,RBF SVM,pca,60.84,
+eyb_light,train S1 -> test S3,linear SVM,kpca_poly,78.33,
+eyb_light,train S1 -> test S3,linear SVM,kpca_rbf,68.06,
+eyb_light,train S1 -> test S3,linear SVM,pca,79.09,
+eyb_light,train S1 -> test S3,soft k-NN,kpca_poly,43.73,
+eyb_light,train S1 -> test S3,soft k-NN,kpca_rbf,44.49,
+eyb_light,train S1 -> test S3,soft k-NN,pca,45.63,
+eyb_light,train S1 -> test S4,1-NN,kpca_poly,27.25,
+eyb_light,train S1 -> test S4,1-NN,kpca_rbf,27.49,
+eyb_light,train S1 -> test S4,1-NN,pca,27.98,
+eyb_light,train S1 -> test S4,LDA,kpca_poly,55.23,
+eyb_light,train S1 -> test S4,LDA,kpca_rbf,30.17,
+eyb_light,train S1 -> test S4,LDA,pca,55.96,
+eyb_light,train S1 -> test S4,RBF SVM,kpca_poly,20.19,
+eyb_light,train S1 -> test S4,RBF SVM,kpca_rbf,29.93,
+eyb_light,train S1 -> test S4,RBF SVM,pca,18.98,
+eyb_light,train S1 -> test S4,linear SVM,kpca_poly,51.34,
+eyb_light,train S1 -> test S4,linear SVM,kpca_rbf,41.12,
+eyb_light,train S1 -> test S4,linear SVM,pca,52.31,
+eyb_light,train S1 -> test S4,soft k-NN,kpca_poly,25.06,
+eyb_light,train S1 -> test S4,soft k-NN,kpca_rbf,25.3,
+eyb_light,train S1 -> test S4,soft k-NN,pca,26.28,
+eyb_light,train S1 -> test S5,1-NN,kpca_poly,5.22,
+eyb_light,train S1 -> test S5,1-NN,kpca_rbf,5.44,
+eyb_light,train S1 -> test S5,1-NN,pca,5.22,
+eyb_light,train S1 -> test S5,LDA,kpca_poly,27.66,
+eyb_light,train S1 -> test S5,LDA,kpca_rbf,11.34,
+eyb_light,train S1 -> test S5,LDA,pca,28.8,
+eyb_light,train S1 -> test S5,RBF SVM,kpca_poly,5.22,
+eyb_light,train S1 -> test S5,RBF SVM,kpca_rbf,9.07,
+eyb_light,train S1 -> test S5,RBF SVM,pca,4.54,
+eyb_light,train S1 -> test S5,linear SVM,kpca_poly,25.85,
+eyb_light,train S1 -> test S5,linear SVM,kpca_rbf,13.15,
+eyb_light,train S1 -> test S5,linear SVM,pca,25.4,
+eyb_light,train S1 -> test S5,soft k-NN,kpca_poly,5.44,
+eyb_light,train S1 -> test S5,soft k-NN,kpca_rbf,5.22,
+eyb_light,train S1 -> test S5,soft k-NN,pca,5.67,
+eyb_random,10/person,1-NN,kpca_poly,48.86,0.88
+eyb_random,10/person,1-NN,kpca_rbf,45.28,0.78
+eyb_random,10/person,1-NN,pca,49.63,0.99
+eyb_random,10/person,LDA,kpca_poly,83.82,1.74
+eyb_random,10/person,LDA,kpca_rbf,77.86,1.62
+eyb_random,10/person,LDA,pca,84.62,1.68
+eyb_random,10/person,RBF SVM,kpca_poly,81.87,1.25
+eyb_random,10/person,RBF SVM,kpca_rbf,74.72,1.61
+eyb_random,10/person,RBF SVM,pca,82.55,1.6
+eyb_random,10/person,linear SVM,kpca_poly,81.4,0.92
+eyb_random,10/person,linear SVM,kpca_rbf,78.5,0.95
+eyb_random,10/person,linear SVM,pca,81.64,1.0
+eyb_random,10/person,soft k-NN,kpca_poly,44.81,1.1
+eyb_random,10/person,soft k-NN,kpca_rbf,42.51,0.92
+eyb_random,10/person,soft k-NN,pca,45.4,1.16
+eyb_random,20/person,1-NN,kpca_poly,58.6,0.35
+eyb_random,20/person,1-NN,kpca_rbf,53.35,0.99
+eyb_random,20/person,1-NN,pca,59.39,0.23
+eyb_random,20/person,LDA,kpca_poly,87.57,1.17
+eyb_random,20/person,LDA,kpca_rbf,83.52,1.18
+eyb_random,20/person,LDA,pca,88.6,0.94
+eyb_random,20/person,RBF SVM,kpca_poly,89.47,1.27
+eyb_random,20/person,RBF SVM,kpca_rbf,84.83,1.58
+eyb_random,20/person,RBF SVM,pca,90.02,1.13
+eyb_random,20/person,linear SVM,kpca_poly,87.92,0.67
+eyb_random,20/person,linear SVM,kpca_rbf,86.37,0.54
+eyb_random,20/person,linear SVM,pca,88.03,1.14
+eyb_random,20/person,soft k-NN,kpca_poly,54.94,0.76
+eyb_random,20/person,soft k-NN,kpca_rbf,51.12,0.74
+eyb_random,20/person,soft k-NN,pca,55.89,1.15
+eyb_random,30/person,1-NN,kpca_poly,62.92,0.8
+eyb_random,30/person,1-NN,kpca_rbf,57.06,1.28
+eyb_random,30/person,1-NN,pca,63.73,0.9
+eyb_random,30/person,LDA,kpca_poly,89.17,0.95
+eyb_random,30/person,LDA,kpca_rbf,85.25,1.2
+eyb_random,30/person,LDA,pca,89.58,0.5
+eyb_random,30/person,RBF SVM,kpca_poly,93.09,0.4
+eyb_random,30/person,RBF SVM,kpca_rbf,89.78,1.21
+eyb_random,30/person,RBF SVM,pca,93.53,0.8
+eyb_random,30/person,linear SVM,kpca_poly,91.59,1.02
+eyb_random,30/person,linear SVM,kpca_rbf,90.15,0.76
+eyb_random,30/person,linear SVM,pca,91.42,0.81
+eyb_random,30/person,soft k-NN,kpca_poly,61.72,0.8
+eyb_random,30/person,soft k-NN,kpca_rbf,57.21,1.32
+eyb_random,30/person,soft k-NN,pca,62.28,0.75
+orl,3/person,1-NN,kpca_poly,88.32,1.01
+orl,3/person,1-NN,kpca_rbf,87.04,1.37
+orl,3/person,1-NN,pca,88.36,1.07
+orl,3/person,LDA,kpca_poly,85.64,2.95
+orl,3/person,LDA,kpca_rbf,85.54,3.71
+orl,3/person,LDA,pca,86.14,2.07
+orl,3/person,RBF SVM,kpca_poly,85.79,2.1
+orl,3/person,RBF SVM,kpca_rbf,87.5,1.65
+orl,3/person,RBF SVM,pca,85.43,1.56
+orl,3/person,linear SVM,kpca_poly,87.29,1.39
+orl,3/person,linear SVM,kpca_rbf,90.96,1.14
+orl,3/person,linear SVM,pca,86.96,1.16
+orl,3/person,soft k-NN,kpca_poly,79.93,2.0
+orl,3/person,soft k-NN,kpca_rbf,79.43,1.91
+orl,3/person,soft k-NN,pca,79.96,2.15
+orl,4/person,1-NN,kpca_poly,91.54,2.33
+orl,4/person,1-NN,kpca_rbf,91.17,2.23
+orl,4/person,1-NN,pca,91.88,2.24
+orl,4/person,LDA,kpca_poly,93.29,2.16
+orl,4/person,LDA,kpca_rbf,93.0,1.57
+orl,4/person,LDA,pca,93.38,2.28
+orl,4/person,RBF SVM,kpca_poly,90.88,1.54
+orl,4/person,RBF SVM,kpca_rbf,91.92,2.28
+orl,4/person,RBF SVM,pca,91.04,1.82
+orl,4/person,linear SVM,kpca_poly,91.67,1.77
+orl,4/person,linear SVM,kpca_rbf,93.62,2.37
+orl,4/person,linear SVM,pca,91.46,1.95
+orl,4/person,soft k-NN,kpca_poly,84.46,1.95
+orl,4/person,soft k-NN,kpca_rbf,84.88,2.22
+orl,4/person,soft k-NN,pca,84.62,2.18
+orl,5/person,1-NN,kpca_poly,94.4,1.97
+orl,5/person,1-NN,kpca_rbf,94.25,1.95
+orl,5/person,1-NN,pca,94.35,1.92
+orl,5/person,LDA,kpca_poly,96.2,1.69
+orl,5/person,LDA,kpca_rbf,95.8,2.08
+orl,5/person,LDA,pca,96.3,1.84
+orl,5/person,RBF SVM,kpca_poly,94.65,1.51
+orl,5/person,RBF SVM,kpca_rbf,94.9,1.66
+orl,5/person,RBF SVM,pca,94.55,1.76
+orl,5/person,linear SVM,kpca_poly,94.4,1.41
+orl,5/person,linear SVM,kpca_rbf,96.45,1.64
+orl,5/person,linear SVM,pca,94.1,1.78
+orl,5/person,soft k-NN,kpca_poly,87.9,2.81
+orl,5/person,soft k-NN,kpca_rbf,89.15,3.23
+orl,5/person,soft k-NN,pca,88.25,2.55
+orl,6/person,1-NN,kpca_poly,95.38,2.13
+orl,6/person,1-NN,kpca_rbf,95.19,2.17
+orl,6/person,1-NN,pca,95.5,1.99
+orl,6/person,LDA,kpca_poly,97.31,1.29
+orl,6/person,LDA,kpca_rbf,96.81,1.33
+orl,6/person,LDA,pca,97.56,1.36
+orl,6/person,RBF SVM,kpca_poly,96.37,1.5
+orl,6/person,RBF SVM,kpca_rbf,96.19,1.36
+orl,6/person,RBF SVM,pca,96.31,1.43
+orl,6/person,linear SVM,kpca_poly,95.38,1.59
+orl,6/person,linear SVM,kpca_rbf,97.56,0.86
+orl,6/person,linear SVM,pca,95.25,1.07
+orl,6/person,soft k-NN,kpca_poly,91.06,2.34
+orl,6/person,soft k-NN,kpca_rbf,91.88,2.68
+orl,6/person,soft k-NN,pca,91.38,2.26
+yale,leave-one-condition-out,1-NN,kpca_poly,87.27,17.24
+yale,leave-one-condition-out,1-NN,kpca_rbf,87.88,15.15
+yale,leave-one-condition-out,1-NN,pca,89.09,14.69
+yale,leave-one-condition-out,LDA,kpca_poly,90.91,18.2
+yale,leave-one-condition-out,LDA,kpca_rbf,90.3,18.71
+yale,leave-one-condition-out,LDA,pca,91.52,16.35
+yale,leave-one-condition-out,RBF SVM,kpca_poly,92.12,14.85
+yale,leave-one-condition-out,RBF SVM,kpca_rbf,92.73,12.81
+yale,leave-one-condition-out,RBF SVM,pca,90.91,14.38
+yale,leave-one-condition-out,linear SVM,kpca_poly,90.91,17.96
+yale,leave-one-condition-out,linear SVM,kpca_rbf,91.52,15.23
+yale,leave-one-condition-out,linear SVM,pca,90.91,17.96
+yale,leave-one-condition-out,soft k-NN,kpca_poly,81.21,24.19
+yale,leave-one-condition-out,soft k-NN,kpca_rbf,82.42,20.93
+yale,leave-one-condition-out,soft k-NN,pca,83.03,20.52
